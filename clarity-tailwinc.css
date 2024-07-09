@@ -179,12 +179,10 @@ li.dropdown3 {
   padding: 10px;
   text-align: center;
   width: 120px;
-  margin-left: 500px;
+  margin-left: 650px;
   border-radius: 20px;
 }
 .button:hover {
   background-color: black;
   color: white;
 }
-
-
