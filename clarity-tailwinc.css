@@ -1,4 +1,3 @@
-
 header {
   display: flex;
   margin: 20px;
@@ -133,7 +132,7 @@ li.dropdown3 {
 #img1:hover,
 #img2:hover,
 #img3:hover,
-#img4:hover{
+#img4:hover {
   border-radius: 50%;
   border-color: rgb(197, 196, 196);
   opacity: 1;
@@ -158,12 +157,40 @@ li.dropdown3 {
   opacity: 1;
   transform: scale(1.1);
 }
-.tech {
-  text-decoration: none;
+
+.s {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 100px;
 }
-.tech:hover {
+.con, .contant1 {
+  margin-left: 50px;
+  margin-right: 350px;
+}
+.con {
+  font-size: 250%;
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 250px; 
+}
+
+.con:hover { 
   text-decoration: underline lightsteelblue 12px;
 }
+.butt {
+  border: 0px solid white;
+  border-radius: 20px;
+  margin: 10px;
+  margin-left:50px;
+}
+.contant1 {
+  color: gray;
+  font-size: medium;
+}
+.sm {
+  font-size: medium;
+}
+
 .img {
   border-radius: 1%;
   height: 300px;
@@ -176,11 +203,13 @@ li.dropdown3 {
 }
 .button {
   border: 1px solid black;
-  padding: 10px;
+  padding: 15px;
   text-align: center;
   width: 120px;
-  margin-left: 700px;
+  margin-left: 650px;
   border-radius: 20px;
+  font-size: 15px;
+  background-color: white;
 }
 .button:hover {
   background-color: black;
