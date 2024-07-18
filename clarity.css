@@ -109,12 +109,16 @@ li.dropdown3 {
 .sub {
   background-color: black;
   color: white;
-  margin-top: 10px;
   text-align: center;
   font-size: small;
   border-radius: 10px;
-  width: 80px;
-  height: 40px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.header-section3 li:hover , .image2 li:hover{
+  background-color: rgb(234, 237, 240);
+  border-radius: 50%;
+  cursor: pointer;
 }
 
 .smith {
@@ -122,66 +126,50 @@ li.dropdown3 {
   margin-right: 90px;
   margin-top: 20px;
 }
-#img1,
-#img2,
-#img3,
-#img4 {
-  border: 1px solid white;
+.test {
+  height: 25px;
+  width: 25px;
+  margin-left: 5%;
   opacity: 0.5;
 }
-#img1:hover,
-#img2:hover,
-#img3:hover,
-#img4:hover {
-  border-radius: 50%;
-  border-color: rgb(197, 196, 196);
-  opacity: 1;
-  transform: scale(1.1);
-}
-#img6,
-#img7,
-#img8,
-#img9,
-#img10,
-#img11,
-#img12 {
+ .search{
+  padding: 1%;
+  margin-left: 10%;
+  margin-right: 5%;
   opacity: 0.5;
-}
-#img6:hover,
-#img7:hover,
-#img8:hover,
-#img9:hover,
-#img10:hover,
-#img11:hover,
-#img12:hover {
-  opacity: 1;
-  transform: scale(1.1);
-}
+ }
 
+.test:hover ,.search:hover{
+  opacity: 1;
+}
 .s {
   display: flex;
-  margin-left: 250px;
-  margin-top: 100px;
+  margin-left: 10%;
+  margin-top: 5%;
 }
 .con, .contant1 {
-  margin-left: 50px;
-  margin-right: 350px;
+  margin-left: 5%;
+  margin-right: 30%;
 }
+
 .con {
   font-size: 250%;
   font-weight: bold;
   text-decoration: none;
-  margin-right: 250px; 
+  margin-right: 10%; 
+  
 }
 
 .con:hover { 
   text-decoration: underline lightsteelblue 12px;
+  text-decoration-skip-ink: none;
+  transition: underline 5s;
 }
 .butt {
   border: 0px solid white;
   border-radius: 20px;
   margin: 10px;
-  margin-left:50px;
+  margin-left:5%;
 }
 .contant1 {
   color: gray;
@@ -193,13 +181,12 @@ li.dropdown3 {
 
 .img {
   border-radius: 1%;
-  height: 300px;
-  width: 400px;
+  height: 50%;
+  width: 40%;
+  transition: transform .2s; 
 }
 .img:hover {
-  height: 330px;
-  width: 430px;
-  transition: 2s;
+  transform: scale(1.1);
 }
 .button {
   border: 1px solid black;
