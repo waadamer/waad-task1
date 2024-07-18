@@ -13,11 +13,14 @@ header {
   margin-right: auto;
 }
 .header-section3 {
+  display: flex;
   float: right;
   width: 400px;
   margin-right: 20px;
   text-align: center;
 }
+
+
 img {
   margin-top: 10px;
 }
@@ -105,7 +108,14 @@ li.dropdown3 {
 .dropdown3:hover .dropdown-content3 {
   display: block;
 }
-
+.smith {
+  margin-left: 200px;
+  margin-right: 90px;
+  margin-top: 20px;
+}
+.image2{
+  display: flex;
+}
 .sub {
   background-color: black;
   color: white;
@@ -115,39 +125,36 @@ li.dropdown3 {
   padding: 10px 20px;
   cursor: pointer;
 }
-.header-section3 li:hover , .image2 li:hover{
+
+.test,
+.search {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  opacity: 0.5;
+  margin: 1%;
+}
+.search {
+  margin-left: 10%;
+}
+
+.test:hover,
+.search:hover {
+  opacity: 1;
   background-color: rgb(234, 237, 240);
   border-radius: 50%;
   cursor: pointer;
 }
 
-.smith {
-  margin-left: 200px;
-  margin-right: 90px;
-  margin-top: 20px;
-}
-.test {
-  height: 25px;
-  width: 25px;
-  margin-left: 5%;
-  opacity: 0.5;
-}
- .search{
-  padding: 1%;
-  margin-left: 10%;
-  margin-right: 5%;
-  opacity: 0.5;
- }
-
-.test:hover ,.search:hover{
-  opacity: 1;
-}
 .s {
   display: flex;
   margin-left: 10%;
   margin-top: 5%;
 }
-.con, .contant1 {
+.con,
+.contant1 {
   margin-left: 5%;
   margin-right: 30%;
 }
@@ -156,11 +163,10 @@ li.dropdown3 {
   font-size: 250%;
   font-weight: bold;
   text-decoration: none;
-  margin-right: 10%; 
-  
+  margin-right: 10%;
 }
 
-.con:hover { 
+.con:hover {
   text-decoration: underline lightsteelblue 12px;
   text-decoration-skip-ink: none;
   transition: underline 5s;
@@ -169,7 +175,7 @@ li.dropdown3 {
   border: 0px solid white;
   border-radius: 20px;
   margin: 10px;
-  margin-left:5%;
+  margin-left: 5%;
 }
 .contant1 {
   color: gray;
@@ -183,7 +189,7 @@ li.dropdown3 {
   border-radius: 1%;
   height: 50%;
   width: 40%;
-  transition: transform .2s; 
+  transition: transform 0.2s;
 }
 .img:hover {
   transform: scale(1.1);
